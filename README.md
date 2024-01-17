@@ -29,7 +29,7 @@ Important functions:
 
 [inference.decoder_inference.background_inference()](inference/decoder_inference.py) : This function reads realtime data and processes it on the fly to predict class using a trained model.    
 
-[ML_training.vanilla_training.train_model.run_train_loss_CH()](ML_training/Vanilla_training/train_model.py) : Runs model training with cross entropy loss.   
+[ML_training.vanilla_training.train_model.run_train_loss_CH()](ML_training/vanilla_training/train_model.py) : Runs model training with cross entropy loss.   
 
 [ML_training.SSL_training.pre_train_triplet.run_pretrain_triplet()](ML_training/SSL_training/pre_train_triplet.py) : Runs self-supervised training with triplet loss and hard mining loss.    
 
