@@ -2,7 +2,7 @@
 Some core functionality of hand gesture decoding. Missing some vital components until work is ready to be published.
 
 Directories
-gifs: The prompts presented to the participants. Should have a couple of GIFs and dict/list of all classes in the study
+[gifs](gifs): The prompts presented to the participants. Should have a couple of GIFs and dict/list of all classes in the study
 inferenc/recording: GUI for data recoding experiments and the various buttons/fields that can be used. These are not run directly and called through run_GUI.py
 tmsi_dual_interface: Core modules for data recoding and running the TMSi SAGA/64 devices for HDEMG recording and online streaming.
 
