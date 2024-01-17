@@ -1,0 +1,16 @@
+program: run_model_training.py
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  num_GCN_layers:
+    values: [2,3,4]
+  num_GCNneurons:
+    values: [256,512,1024]
+  num_fc_layer:
+    values: [2,3,4]
+  k_pooling_dim:
+    values: [8, 16, 32]
+  fc_layer_scaling:
+    values: [8,16,32]
